@@ -5,7 +5,7 @@ const greeting = {
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
   subTitle: emoji("A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: ""
+  resumeLink: "https://docs.google.com/document/d/1y-qo1UWqanZMTS0ky4oEUrnddYvJq_rsI5MATyKdf58/edit?usp=sharing"
 };
 
 // Links
@@ -130,50 +130,34 @@ const techStack = {
 };
 
 
-// Your top 3 work experiences
+
 /* 
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "",
+      company: "",
+      companylogo: require("./assets/.png"),
+      date: "",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
   ]
 };
  */
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "babed3", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "babedi3", 
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
-// Some Big Projects You have worked with your company
 
 const bigProjects = {
   title: "Portfolio",
@@ -186,11 +170,26 @@ const bigProjects = {
     {
       image: require("./assets/images/sociopod.png"),
       link: "https://vast-scrubland-76826.herokuapp.com/"
+    },
+    {
+      image: require("./assets/images/voteright.png"),
+      link: ""
+    },
+    {
+      image: require("./assets/images/booksearch.png"),
+      link: "https://googleapibooksearchapp.herokuapp.com/"
+    },
+    {
+      image: require("./assets/images/budgetapp.png"),
+      link: "https://budgetgraphapp.herokuapp.com/"
+    },
+    {
+      image: require("./assets/images/employeetracker.png"),
+      link: "https://github.com/babedi3/EmployeeTracker"
     }
+    
   ]
 };
-
-// Your Achievement Section Include Your Certification Talks and More
 
 /* const achievementSection = {
 
@@ -285,7 +284,7 @@ const contactInfo = {
 
 /* const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "twitter"
 
 }; */
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack,/*  workExperiences,*/ openSource,   bigProjects, /* achievementSection,  *//* blogSection, talkSection, podcastSection, */ contactInfo /* , twitterDetails */};

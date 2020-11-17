@@ -16,11 +16,12 @@ https://brianabediportfolio.herokuapp.com/
 
 
 ## Sections
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Projects\
-✔️ Contact me\
+✔️ Summary
+✔️ Skills
+✔️ Education
+✔️ Github
+✔️ Projects
+✔️ Contact me
 
 
 ## Technologies Used 
