@@ -1,7 +1,7 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, educationInfo, /* workExperiences */} from "../../portfolio";
+import {greeting, educationInfo, /* workExperiences */ openSource} from "../../portfolio";
 
 function Header() {
   return (
@@ -30,7 +30,7 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           } */}
-      {/*     <li>
+          {/* <li>
             <a href="#opensource">Open Source</a>
           </li> */}
           <li>

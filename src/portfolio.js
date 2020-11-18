@@ -99,9 +99,9 @@ const educationInfo = {
     {
       schoolName: "Georgia Institute of Technology ",
       logo: require("./assets/images/gtlogo.png"),
-      subHeader: "B.S.B.A. IT Management, Certificate: Full Stack Development",
-      duration: "August 2015 - December 2020",
-      desc: "",
+      subHeader: "B.S.B.A. IT Management",
+      duration: "Certificate: Full Stack Development",
+      desc: "2015-2020",
       descBullets: [
        
       ]
@@ -165,27 +165,33 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/weatherapp.png"),
-      link: "https://babedi3.github.io/WeatherApp/"
+      link: "https://babedi3.github.io/WeatherApp/",
+      text: "Weather App"
     },
     {
       image: require("./assets/images/sociopod.png"),
-      link: "https://vast-scrubland-76826.herokuapp.com/"
+      link: "https://vast-scrubland-76826.herokuapp.com/",
+      text: "Podcast App"
     },
     {
       image: require("./assets/images/voteright.png"),
-      link: ""
+      link: "",
+      text: "VoteRight"
     },
     {
       image: require("./assets/images/booksearch.png"),
-      link: "https://googleapibooksearchapp.herokuapp.com/"
+      link: "https://googleapibooksearchapp.herokuapp.com/",
+      text: "Google Books Search"
     },
     {
       image: require("./assets/images/budgetapp.png"),
-      link: "https://budgetgraphapp.herokuapp.com/"
+      link: "https://budgetgraphapp.herokuapp.com/",
+      text: "Budget App"
     },
     {
       image: require("./assets/images/employeetracker.png"),
-      link: "https://github.com/babedi3/EmployeeTracker"
+      link: "https://github.com/babedi3/EmployeeTracker",
+      text: "Employee Managment App"
     }
     
   ]
@@ -287,4 +293,5 @@ const contactInfo = {
   userName : "twitter"
 
 }; */
+
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack,/*  workExperiences,*/ openSource,   bigProjects, /* achievementSection,  *//* blogSection, talkSection, podcastSection, */ contactInfo /* , twitterDetails */};
