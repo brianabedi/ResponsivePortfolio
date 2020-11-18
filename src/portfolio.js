@@ -5,7 +5,7 @@ const greeting = {
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
   subTitle: emoji("A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:78d71957-b0f1-4587-8445-c859c1a3e81f"
+  resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ff272a4c-4225-4fa3-a96c-23bbcc290f58"
 };
 
 // Links
