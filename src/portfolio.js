@@ -4,7 +4,7 @@ const greeting = {
   /* Summary And Greeting Section */
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
-  subTitle: emoji("A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji("A full-stack developer having experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ff272a4c-4225-4fa3-a96c-23bbcc290f58"
 };
 
@@ -13,8 +13,8 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/babedi3",
-/*   linkedin: "https://www.linkedin.com//",
- */  gmail: "babedi3@gatech.edu",
+  linkedin: "https://www.linkedin.com/brianabedi/",
+  gmail: "babedi3@gatech.edu",
   /* gitlab: "https://gitlab.com/",
   medium: "https://medium.com/",
   stackoverflow: "https://stackoverflow.com/" */
@@ -78,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-fire"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "python",
