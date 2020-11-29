@@ -76,10 +76,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-   /*  {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }, */
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-fire"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -183,11 +183,11 @@ const bigProjects = {
       link: "https://googleapibooksearchapp.herokuapp.com/",
       text: "Google Books Search"
     },
-    {
+   /*  {
       image: require("./assets/images/budgetapp.png"),
       link: "https://budgetgraphapp.herokuapp.com/",
       text: "Budget App"
-    },
+    }, */
     {
       image: require("./assets/images/employeetracker.png"),
       link: "https://github.com/babedi3/EmployeeTracker",
