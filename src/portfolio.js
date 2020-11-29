@@ -175,7 +175,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/voteright.png"),
-      link: "",
+      link: "https://github.com/babedi3/VoteRight",
       text: "VoteRight"
     },
     {
