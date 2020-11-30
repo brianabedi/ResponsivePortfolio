@@ -4,11 +4,7 @@ const greeting = {
   /* Summary And Greeting Section */
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
-<<<<<<< HEAD
-  subTitle: emoji("Full stack developer having experience building web and mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-=======
-  subTitle: emoji("A full-stack developer having experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
->>>>>>> 4d1a9e254ad401900947b521c8c18e2445ffd15d
+  subTitle: emoji(" A full stack developer having experience building web and mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ff272a4c-4225-4fa3-a96c-23bbcc290f58"
 };
 
