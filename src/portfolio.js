@@ -4,7 +4,7 @@ const greeting = {
   /* Summary And Greeting Section */
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
-  subTitle: emoji("A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji("Full stack developer having experience building web and mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ff272a4c-4225-4fa3-a96c-23bbcc290f58"
 };
 
@@ -27,9 +27,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WELL VERSED IN THE FOLLOWING",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
