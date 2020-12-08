@@ -5,7 +5,7 @@ const greeting = {
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
   subTitle: emoji(" A full stack developer having experience building web and mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ff272a4c-4225-4fa3-a96c-23bbcc290f58"
+  resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:50c99fa4-15d3-4d73-9e24-3fff572e2307"
 };
 
 // Links
@@ -169,9 +169,9 @@ const bigProjects = {
       text: "Weather App"
     },
     {
-      image: require("./assets/images/sociopod.png"),
-      link: "https://vast-scrubland-76826.herokuapp.com/",
-      text: "Podcast App"
+      image: require("./assets/images/InventoryManager.png"),
+      link: "https://github.com/babedi3/Inventory-Management-App",
+      text: "Inventory Manager"
     },
     {
       image: require("./assets/images/voteright.png"),
@@ -183,16 +183,11 @@ const bigProjects = {
       link: "https://googleapibooksearchapp.herokuapp.com/",
       text: "Google Books Search"
     },
-   /*  {
-      image: require("./assets/images/budgetapp.png"),
-      link: "https://budgetgraphapp.herokuapp.com/",
-      text: "Budget App"
-    }, */
     {
-      image: require("./assets/images/employeetracker.png"),
-      link: "https://github.com/babedi3/EmployeeTracker",
-      text: "Employee Managment App"
-    }
+      image: require("./assets/images/CodeConnector.png"),
+      link: "https://github.com/babedi3/Code-Connector",
+      text: "Code Connector"
+    }, 
     
   ]
 };
