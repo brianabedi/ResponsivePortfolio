@@ -61,10 +61,12 @@
 }
 
 .education-text-duration {
-  color: #000000;
+  color: black;
+  font-weight: 700;
   font-size: 19px;
   margin: 0px;
-  padding-top: 0.5rem;
+  padding-top: 0.8rem;
+  line-height: normal;
 }
 
 .education-text-desc {

@@ -25,7 +25,6 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <StackProgress />
-        <Education />
 {/*         <WorkExperience />
  */}        <Projects />
         <StartupProject />
@@ -34,6 +33,7 @@ export default class Main extends Component {
  */}        {/* <Talks />
         <Twitter />
         <Podcast /> */}
+          <Education />
         <Profile />
         <Footer />
         <Top />

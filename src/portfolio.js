@@ -4,7 +4,7 @@ const greeting = {
   /* Summary And Greeting Section */
   username: "Brian Abedi",
   title: "Hi, I'm Brian",
-  subTitle: emoji(" A full stack developer having experience building web and mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji(" A full-stack developer having experience building web and mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:50c99fa4-15d3-4d73-9e24-3fff572e2307"
 };
 
@@ -91,24 +91,6 @@ https://fontawesome.com/icons?d=gallery */
   ]
 };
 
-// Your education background
-
-const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
-  schools: [
-    {
-      schoolName: "Georgia Institute of Technology ",
-      logo: require("./assets/images/gtlogo.png"),
-      subHeader: "B.S.B.A. IT Management",
-      duration: "Certificate: Full Stack Development",
-      desc: "2015-2020",
-      descBullets: [
-       
-      ]
-    }
-  ]
-}
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -165,7 +147,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/weatherapp.png"),
-      link: "https://babedi3.github.io/WeatherApp/",
+      link: "https://babedi3.github.io/Weather/",
       text: "Weather App"
     },
     {
@@ -189,6 +171,24 @@ const bigProjects = {
       text: "Code Connector"
     }, 
     
+  ]
+};
+
+// Your education background
+
+const educationInfo = {
+  viewEducation: true, // Set it to true to see education section
+  schools: [
+    {
+      schoolName: "Georgia Institute of Technology ",
+      logo: require("./assets/images/gtlogo.png"),
+      subHeader: "B.S.B.A. IT Management",
+      duration: "Certificate: Full Stack Web Development",
+      desc: "2015-2020",
+      descBullets: [
+       
+      ]
+    }
   ]
 };
 
@@ -278,7 +278,7 @@ const contactInfo = {
   title: emoji("Contact"),
   number: "770.656.9766",
   email_address: "BABEDI3@GATECH.EDU",
-  taddress: "800 Peachtree St Ne, Atlanta GA"
+  taddress: "Atlanta, GA, 30308"
 };
 
 //Twitter Section
@@ -289,4 +289,4 @@ const contactInfo = {
 
 }; */
 
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack,/*  workExperiences,*/ openSource,   bigProjects, /* achievementSection,  *//* blogSection, talkSection, podcastSection, */ contactInfo /* , twitterDetails */};
+export { greeting, socialMediaLinks, skillsSection, techStack,/*  workExperiences,*/ openSource,   bigProjects, educationInfo, /* achievementSection,  *//* blogSection, talkSection, podcastSection, */ contactInfo /* , twitterDetails */};
