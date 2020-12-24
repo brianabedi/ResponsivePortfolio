@@ -20,11 +20,7 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          {educationInfo.viewEducation &&
-            <li>
-              <a href="#education">Education</a>
-            </li>
-          }
+         
           {/* {workExperiences.viewExperiences &&
             <li>
               <a href="#experience">Work Experiences</a>
@@ -36,6 +32,12 @@ function Header() {
           <li>
             <a href="#carousel2">Portfolio</a>
           </li>
+          
+          {educationInfo.viewEducation &&
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          }
          {/*  <li>
             <a href="#achievements">Achievements</a>
           </li> */}
