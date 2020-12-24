@@ -34,7 +34,7 @@ function Header() {
             <a href="#opensource">Open Source</a>
           </li> */}
           <li>
-            <a href="#projects">Portfolio</a>
+            <a href="#carousel2">Portfolio</a>
           </li>
          {/*  <li>
             <a href="#achievements">Achievements</a>

@@ -16,6 +16,7 @@ import Footer from "../components/footer/Footer";
 /* import Twitter from "./twitter-embed/twitter";
  */import Profile from "./profile/Profile";
 import Education from "./education/Education";
+import BootstrapCarouselComponent from "./carousel2/carousel2";
 
 export default class Main extends Component {
   render() {
@@ -26,8 +27,9 @@ export default class Main extends Component {
         <Skills />
         <StackProgress />
 {/*         <WorkExperience />
- */}        <Projects />
-        <StartupProject />
+ */}        {/* <Projects />
+        <StartupProject /> */}
+        <BootstrapCarouselComponent/>
 {/*         <Achievement />
  */}{/*         <Blogs />
  */}        {/* <Talks />
