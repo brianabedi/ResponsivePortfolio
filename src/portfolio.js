@@ -13,7 +13,7 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/babedi3",
-  linkedin: "https://www.linkedin.com/brianabedi/",
+  linkedin: "https://www.linkedin.com/in/brianabedi/",
   gmail: "babedi3@gatech.edu",
   /* gitlab: "https://gitlab.com/",
   medium: "https://medium.com/",
