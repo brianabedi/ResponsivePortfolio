@@ -182,9 +182,9 @@ const educationInfo = {
     {
       schoolName: "Georgia Institute of Technology ",
       logo: require("./assets/images/gtlogo.png"),
-      subHeader: "B.S.B.A. Concentration: IT Management",
-      duration: "Certificate: Full Stack Flex Web Development",
-      desc: "2015-2020",
+      subHeader: "B.A. IT Management",
+      duration: "Certificate: Full Stack Web Development",
+      desc: "2015-2019",
       descBullets: [
        
       ]
