@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousel2.css';
 import img1 from './images/1.png' 
 import img2 from './images/2.png' 
+import nftcalendarnews from './images/nftcalendarnews.png'
+import tokens from './images/tokens.png'
 import img3 from './images/3.png' 
 
 class BootstrapCarouselComponent extends React.Component {
@@ -38,10 +40,10 @@ class BootstrapCarouselComponent extends React.Component {
                                 </Carousel.Item>
 
                                 <Carousel.Item>
-                                <a href="https://babedi3.github.io/Weather/">
+                                <a href="https://www.nftcalendar.news/">
                                     <img
                                         className="d-block w-100 h-100"
-                                        src={img2}
+                                        src={nftcalendarnews}
                                         alt="Second slide"
                                     />
                                     </a>
@@ -52,10 +54,10 @@ class BootstrapCarouselComponent extends React.Component {
                                 </Carousel.Item>
 
                                 <Carousel.Item>
-                                <a href="https://googleapibooksearchapp.herokuapp.com/">
+                                <a href="https://tokens.co.com/">
                                     <img
                                         className="d-block w-100 h-100"
-                                        src={img3}
+                                        src={tokens}
                                         alt="Third slide"
                                     />
                                 </a>
